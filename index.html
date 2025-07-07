@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reyyah Foundation</title>
+  <!-- Google verification tag -->
+  <meta name="google-site-verification" content="abc123xyz456" />
+  <meta name="description" content="Reyyah Foundation is a non-profit NGO working on education, women empowerment, and healthcare in Pakistan.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="main-nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="donate.html">Donate</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+ <header class="site-header">
+  <h1>Reyyah Foundation</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="team.html">Team</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="banner-slider">
+  <div class="slide fade"><img src="ngo.jpg" alt="NGO hands"></div>
+  <div class="slide fade"><img src="happy childrens.jpg" alt="happy Children"></div>
+  <div class="slide fade"><img src="bussiness1.jpg" alt=" Glass Building"></div>
+  <div class="slide fade"><img src="kids_laptop.jpg" alt="kids using laptop"></div>
+</div>
+
+ <section class="hero-banner">
+    <div class="banner-overlay">
+      <h1>Together for Change </h1>
+    </div>
+  </section> 
+   <main class="main-content">
+    <section class="about container">
+      <h2>Welcome to Reyyah Foundation</h2>
+      <p>We are a non-profit organization focused on education, women empowerment, and healthcare. Our mission is to create sustainable change and uplift communities through meaningful action.</p>
+    </section>
+    <section class="work container">
+  <h2>What We Do</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="education2.jpg" alt="Education" width="100%">
+      <h3>Education</h3>
+      <p>Empowering children and youth through access to quality education and resources.</p>
+    </div>
+    <div class="card">
+      <img src="women.jpg" alt="Women Empowerment" width="100%">
+      <h3>Women Empowerment</h3>
+      <p>Supporting women with skills training and opportunities for financial independence.</p>
+    </div>
+    <div class="card">
+      <img src="healthcare.jpeg" alt="Healthcare" width="100%">
+      <h3>Healthcare</h3>
+      <p>Delivering essential health services and awareness programs in underserved areas.</p>
+    </div>
+  </div>
+</section>
+
+<section class="donate container">
+  <h2>Support Our Mission</h2>
+  <p>Your donation can help transform lives. Join hands with Reyyah Foundation and make a difference today.</p>
+  <a href="donate.html" class="btn">Donate Now</a>
+</section>
+  </main>
+  
+    <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Reyyah Foundation. All rights reserved.</p>
+       <p><strong>Address:</strong> Malik kakhan Arcade, Mezzanine Floor, Office No G1,G2 Mirza Adam Khan Road near Khalid Bin Waleed Hotel Agrataj Lyari, karachi.</p>
+      <p><strong>Contact No: </strong>+92 322 2617848</p>
+    </div>
+      </footer> 
+   <a href="https://wa.me/923153072872" class="whatsapp-float" target="_blank" title="Let's Chat on WhatsApp">
+    💬 Let's Chat
+     </a>
+  </div>
+ </div>
+
+</div>
+</body>
+</html>
+</body>
+
+<script>
+let slideIndex = 0;
+carousel();
+
+function carousel() {
+  let i;
+  const slides = document.getElementsByClassName("slide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1 }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(carousel, 3000); // Change image every 3s
+}
+</script>
+</html>
